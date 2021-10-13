@@ -3,6 +3,6 @@ Távolságmérés, Motorok Beüzemelése
 
 ## Képek A Foglalkozásról:
 
-![https://github.com/sla-ppy/arduino_projects/blob/master/2021_10_13/img/photo_2021-10-13_17-26-12.jpg](Autók)
+![img/photo_2021-10-13_17-26-12.jpg](Autók)
 
-![https://github.com/sla-ppy/arduino_projects/blob/master/2021_10_13/img/photo_2021-10-13_17-32-34.jpg](Arduino IDE, Programozás, Autók)
+![img/photo_2021-10-13_17-32-34.jpg](ArduinoIDE)
