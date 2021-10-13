@@ -6,20 +6,28 @@
 #define sensor2 A1
 #define sensor3 A2
 #define sensor4 A3
+#define sensor5 A4
 
-// SDA sensor
-#define sensor5 SDA
+// virtualis labak - motor vezerlesehez:
+#define ENB 6
+#define IN3 7
+#define IN4 8
 
 void setup() {
-  // FIXME: lehet hogy forditva lesz
   pinMode(echoPin, INPUT);
   pinMode(trigPin, OUTPUT);
-  Serial.begin(115200);   // tavolsag olv  asashoz
+  Serial.begin(115200);   // tavolsag olvasashoz
 
+  // also szenzorok
   pinMode(sensor1, INPUT);
   pinMode(sensor2, INPUT);
   pinMode(sensor3, INPUT);
   pinMode(sensor4, INPUT);
+
+  // labak outputra allitasa:
+  pinMode(ENB, OUTPUT);
+  pinMode(IN3, OUTPUT);
+  pinMode(IN4, OUTPUT);
 }
 
 void loop() {
@@ -37,6 +45,7 @@ void loop() {
   Serial.println(tavolsag); 
   */
 
+  /*
   // analog tesztelese:
   int sensor1_data = analogRead(sensor1);
   int sensor2_data = analogRead(sensor2);
@@ -45,5 +54,10 @@ void loop() {
   int sensor5_data = analogRead(sensor5);
 
   Serial.print("s1: " + String (sensor1_data) + "   s2: " + String (sensor2_data) + "   s3: " + String (sensor3_data) + "   s4: " + String (sensor4_data) + "   s5: " + String (sensor5_data)+ String('\n'));  // sensorok data kiiratasa
-  
+  */
+
+  // motorok mozgatasa:
+  digitalWrite(IN4, LOW);
+  digitalWrite(IN3, HIGH);
+  analogWrite(ENB, 127); // sebesseg beallitasahoz
 }
