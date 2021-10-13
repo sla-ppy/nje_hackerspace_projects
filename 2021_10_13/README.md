@@ -1,1 +1,7 @@
-# Arduinos kisauto: Tavolsagmeres optikai szenzorral, fenyszenzorral, motor beuzemelese
+# Arduinós Kisautó:
+Távolságmérés, Motorok Beüzemelése
+
+## Képek A Foglalkozásról:
+
+![]
+![]
