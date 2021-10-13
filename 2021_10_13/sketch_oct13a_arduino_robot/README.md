@@ -1,1 +1,2 @@
-# Arduinos kisauto: Tavolsagmeres optikai szenzorral, fenyszenzorral, motor beuzemelese
+# Arduinos kisauto
+Tavolsagmeres optikai szenzorral, fenyszenzorral, motor beuzemelese
